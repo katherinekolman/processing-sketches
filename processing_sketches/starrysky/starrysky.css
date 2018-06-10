@@ -1,0 +1,13 @@
+hmtl, body {
+    height: 100%;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: 100;
+    background: black;
+    color: LightGrey;
+}
+
+:focus, :active {
+    outline: 0;
+    border: 0;
+}
