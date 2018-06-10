@@ -1,0 +1,33 @@
+hmtl, body {
+    height: 100%;
+    font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#whole-page {
+    height: 100%;
+}
+
+#top-row {
+    margin-top: 20%;
+    margin-bottom: 7%;
+}
+
+#night-sky p {
+    padding: 10%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+#snakes p {
+    padding: 10%;
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+}
+
+p {
+    text-align: center;
+}
