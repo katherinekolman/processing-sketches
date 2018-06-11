@@ -26,11 +26,11 @@ hmtl, body {
     background-color: black;
 }
 
-#snakes p {
+#fractal-tree p {
     padding: 10%;
     font-size: 20px;
-    color: white;
-    background-color: purple;
+    color: black;
+    background-color: #f2c9e8;
 }
 
 p {

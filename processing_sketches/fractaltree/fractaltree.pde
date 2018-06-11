@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-    background(51);
+    background(242, 201, 232);
     for (int i = 0; i < tree.size(); i++)  {
          tree.get(i).show();   
     }
@@ -28,6 +28,7 @@ void mousePressed() {
 class Branch {
     PVector start;
     PVector end;
+    int level;
     boolean grown;
    
     public Branch(PVector start, PVector end) {
@@ -37,6 +38,7 @@ class Branch {
     }
     
     void show() {
+         
         stroke(255);
         line(this.start.x, this.start.y, this.end.x, this.end.y);     
     }
