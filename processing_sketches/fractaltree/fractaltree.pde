@@ -3,8 +3,7 @@ Branch root;
 int numLevels = 7;
 
 void setup() {
-    frameRate(30);
-    size(window.innerWidth, window.innerHeight - 300);
+    size(window.innerWidth, window.innerHeight - window.innerHeight * .07);
 
     tree = new ArrayList<Branch>(100);
     root = new Branch(new PVector(width / 2, height), new PVector(width / 2, height - 200), 1);
